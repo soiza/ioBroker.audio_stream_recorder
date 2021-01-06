@@ -1,0 +1,78 @@
+{
+	"common": {
+		"name": "audio_stream_recorder",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Audiostream Recorder",
+		"titleLang": {
+			"en": "Audiostream Recorder",
+			"de": "Audiostream Recorder",
+			"ru": "Рекордер аудиопотока",
+			"pt": "Audiostream Recorder",
+			"nl": "Audiostream-recorder",
+			"fr": "Enregistreur Audiostream",
+			"it": "Registratore Audiostream",
+			"es": "Grabador de Audiostream",
+			"pl": "Rejestrator Audiostream",
+			"zh-cn": "音频流录音机"
+		},
+		"desc": {
+			"en": "records mp3 streams",
+			"de": "zeichnet MP3-Streams auf",
+			"ru": "записывает mp3 потоки",
+			"pt": "grava streams de mp3",
+			"nl": "neemt mp3-streams op",
+			"fr": "enregistre les flux mp3",
+			"it": "registra flussi mp3",
+			"es": "graba transmisiones de mp3",
+			"pl": "nagrywa strumienie mp3",
+			"zh-cn": "记录mp3流"
+		},
+		"authors": [
+			"soiza <salzer.lukas@gmail.com>"
+		],
+		"keywords": [
+			"mp3",
+			"stream",
+			"record"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "audio_stream_recorder.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/soiza/ioBroker.audio_stream_recorder/master/admin/audio_stream_recorder.png",
+		"readme": "https://github.com/soiza/ioBroker.audio_stream_recorder/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "multimedia",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}

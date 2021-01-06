@@ -1,0 +1,39 @@
+{
+	"cli": true,
+	"adapterName": "audio_stream_recorder",
+	"title": "Audiostream Recorder",
+	"description": "records mp3 streams",
+	"keywords": [
+		"mp3",
+		"stream",
+		"record"
+	],
+	"expert": "no",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "multimedia",
+	"startMode": "daemon",
+	"connectionType": "cloud",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"adminReact": "yes",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"authorName": "soiza",
+	"authorGithub": "soiza",
+	"authorEmail": "salzer.lukas@gmail.com",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"license": "MIT License",
+	"ci": "gh-actions",
+	"dependabot": "no",
+	"creatorVersion": "1.31.0"
+}
